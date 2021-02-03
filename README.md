@@ -14,7 +14,7 @@ When getting a Particle Xenon board (or similar), it is a good pratice to perfor
 
 ## Installing Adafruit Firmware
 
-Firmware consists of [softdevice][https://github.com/nordicsemiconductor/nrf5-sdk-for-mesh/tree/master/bin/softdevice] and Adafruit bootloader. Both can be flashed using `flash_hex.sh` script:
+Firmware consists of [softdevice](https://github.com/nordicsemiconductor/nrf5-sdk-for-mesh/tree/master/bin/softdevice) and [Adafruit bootloader](https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases). Both can be flashed using `flash_hex.sh` script:
 
     ./flash_hex.sh particle_xenon_bootloader-0.4.0_s140_6.1.1.hex
     ./flash_hex.sh s140_nrf52_7.2.0_softdevice.hex
@@ -40,4 +40,4 @@ Also `nrfutil` util, which allows performing DFU updates:
     nrfutil version # Display version
     nrfutil dfu # Used to perform device firmware update, need to check out how
 
-To see all available software tools visit: https://www.nordicsemi.com/Software-and-tools/Development-Tools/nRF-Pynrfjprog
+To see all available software tools visit [Nordic Dev Tools Website](https://www.nordicsemi.com/Software-and-tools/Development-Tools/).
