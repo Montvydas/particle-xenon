@@ -4,6 +4,10 @@ Requiremenets:
 -   One of the boards that support Jlink programmer e.g. Particle Xenon, Adafruit Feather...
 -   Installed `nrfjprog` CLI
 
+<p align="center">
+  <img src="connections.jpg">
+</p>
+
 ## Performing Backup
 
 When getting a Particle Xenon board (or similar), it is a good pratice to perform a backup in case anything goes wrong or if you later want to quickly reflash the initial software. To do that run script `perform_backup.sh`. This will create two files `backupcode.hex` and `backupuicr.hex`. To later flash backup files back into the chip run `flash_from_backup.sh`.
