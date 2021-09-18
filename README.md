@@ -8,6 +8,10 @@ Requiremenets:
   <img src="connections.jpg">
 </p>
 
+## Install Software
+
+Install the latest version [Nordic command line tools](https://www.nordicsemi.com/Products/Development-tools/nrf-command-line-tools/download). Then also install [j-link tools](https://www.segger.com/downloads/jlink/).
+
 ## Performing Backup
 
 When getting a Particle Xenon board (or similar), it is a good pratice to perform a backup in case anything goes wrong or if you later want to quickly reflash the initial software. To do that run script `perform_backup.sh`. This will create two files `backupcode.hex` and `backupuicr.hex`. To later flash backup files back into the chip run `flash_from_backup.sh`.
